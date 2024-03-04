@@ -19,4 +19,5 @@
     <string name="msg_verificar_contr">Verificar contraseña</string>
     <string name="lbl_regisrarse">Regisrarse</string>
     <string name="lbl_tienes_cuenta">¿Tienes cuenta?</string>
+    <string name="lbl_busca_tu_amigo">Busca tu amigo</string>
 </resources>

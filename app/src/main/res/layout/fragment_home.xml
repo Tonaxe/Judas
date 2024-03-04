@@ -3,6 +3,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    style="@style/groupStylegray_900"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     tools:context=".HomeFragment">
+
+    <FrameLayout android:id="@+id/frameAlbums"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent" style="@style/groupStyle">
+
+        <View
+            android:id="@+id/viewRectangleThirtySix"
+            android:layout_width="match_parent"
+            android:layout_height="81dp"
+            android:layout_gravity="top|start"
+            android:layout_marginBottom="@dimen/_10pxv"
+            android:background="@color/bluegray_900" />
+
+        <androidx.appcompat.widget.SearchView
+            android:id="@+id/searchViewGroupOne"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="top|center"
+            android:layout_marginStart="@dimen/_31pxh"
+            android:layout_marginTop="@dimen/_16pxv"
+            android:layout_marginEnd="@dimen/_31pxh"
+            android:layout_marginBottom="@dimen/_16pxv"
+            android:background="@drawable/rectangle_bg_bluegray_100_radius_16_5"
+            android:theme="@style/searchViewGroupOne"
+            app:iconifiedByDefault="false"
+            app:queryBackground="@android:color/transparent"
+            app:queryHint="@string/lbl_busca_tu_amigo"
+            app:searchIcon="@drawable/img_search" />
+    </FrameLayout>
 
 </FrameLayout>

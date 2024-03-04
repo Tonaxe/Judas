@@ -52,5 +52,20 @@ public class LogInFragment extends Fragment {
                 navController.navigate(R.id.action_logInFragment_to_sigInFragment);
             }
         });
+
+        // Obtener referencia a la imagen
+        View btnIniciarSesin = view.findViewById(R.id.btnIniciarSesin);
+
+        // Configurar el clic de la imagen para navegar al fragmento LogRegInicioFragment
+        btnIniciarSesin.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Obtener NavController desde el Fragment
+                NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
+
+                // Navegar al fragmento LogRegInicioFragment utilizando la acción definida en nav_graph.xml
+                navController.navigate(R.id.action_logInFragment_to_homeFragment);
+            }
+        });
     }
 }

@@ -15,4 +15,6 @@
     <color name="gray_900">#14110f</color>
     <color name="bluegray_100">#d9d9d9</color>
     <color name="gray_100">#f3f3f4</color>
+    <color name="bluegray_900">#34312d</color>
+    <color name="gray_800">#444444</color>
 </resources>
