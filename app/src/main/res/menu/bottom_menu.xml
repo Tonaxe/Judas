@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/homeFragment"
+        android:icon="@drawable/img_logowhite1"
+        android:title="Home" />
+
+    <item
+        android:id="@+id/buscarFragment"
+        android:icon="@android:drawable/ic_menu_search"
+        android:title="Buscar" />
+
+    <item
+        android:id="@+id/amigosFragment"
+        android:icon="@android:drawable/ic_menu_myplaces"
+        android:title="Amigos" />
+
+    <item
+        android:id="@+id/albumsFragment"
+        android:icon="@android:drawable/ic_menu_sort_by_size"
+        android:title="Albums" />
+
+    <item
+        android:id="@+id/perfilFragment"
+        android:icon="@drawable/ic_launcher_foreground"
+        android:title="Perfil" />
+</menu>
