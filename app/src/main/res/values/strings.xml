@@ -20,4 +20,11 @@
     <string name="lbl_regisrarse">Regisrarse</string>
     <string name="lbl_tienes_cuenta">¿Tienes cuenta?</string>
     <string name="lbl_busca_tu_amigo">Busca tu amigo</string>
+    <string name="msg_tonaxe4_gmail_c">tonaxe4@gmail.com</string>
+    <string name="lbl_a_adir_correo">Añadir correo</string>
+    <string name="msg_tonaxe_gmail_co">tonaxe@gmail.com</string>
+    <string name="msg_tonaxe3_gmail_c">tonaxe3@gmail.com</string>
+    <string name="msg_tonaxe2_gmail_c">tonaxe2@gmail.com</string>
+    <string name="msg_tonaxe1_gmail_c">tonaxe1@gmail.com</string>
+    <string name="msg_tonaxe5_gmail_c">tonaxe5@gmail.com</string>
 </resources>

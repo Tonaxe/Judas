@@ -72,4 +72,9 @@
         android:name="com.example.judas.PerfilFragment"
         android:label="fragment_perfil"
         tools:layout="@layout/fragment_perfil" />
+    <fragment
+        android:id="@+id/googleLogInFragment"
+        android:name="com.example.judas.GoogleLogInFragment"
+        android:label="fragment_google_log_in"
+        tools:layout="@layout/fragment_google_log_in" />
 </navigation>
