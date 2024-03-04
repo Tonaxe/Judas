@@ -37,5 +37,20 @@ public class LogRegInicioFragment extends Fragment {
                 navController.navigate(R.id.action_logRegInicioFragment_to_logInFragment);
             }
         });
+
+        // Obtener referencia al botón
+        View btnRegistrarse = view.findViewById(R.id.btnRegistrarse);
+
+        // Configurar el clic del botón para navegar al fragmento LogRegInicioFragment
+        btnRegistrarse.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Obtener NavController desde el Fragment
+                NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
+
+                // Navegar al fragmento LogRegInicioFragment utilizando la acción definida en nav_graph.xml
+                navController.navigate(R.id.action_logRegInicioFragment_to_sigInFragment);
+            }
+        });
     }
 }

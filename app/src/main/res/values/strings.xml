@@ -15,4 +15,8 @@
     <string name="msg_no_estas_regis">¿No estas registrado? </string>
     <string name="lbl_contrase_a">Contraseña</string>
     <string name="msg_nombre_de_usuar">Nombre de usuario</string>
+    <string name="msg_o_registrartse">O registrartse con</string>
+    <string name="msg_verificar_contr">Verificar contraseña</string>
+    <string name="lbl_regisrarse">Regisrarse</string>
+    <string name="lbl_tienes_cuenta">¿Tienes cuenta?</string>
 </resources>
