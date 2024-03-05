@@ -66,5 +66,35 @@ public class SigInFragment extends Fragment {
                 navController.navigate(R.id.action_sigInFragment_to_homeFragment);
             }
         });
+
+        // Obtener referencia a la imagen
+        View imageGooglelogo = view.findViewById(R.id.imageGooglelogo);
+
+        // Configurar el clic de la imagen para navegar al fragmento LogRegInicioFragment
+        imageGooglelogo.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Obtener NavController desde el Fragment
+                NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
+
+                // Navegar al fragmento LogRegInicioFragment utilizando la acción definida en nav_graph.xml
+                navController.navigate(R.id.action_sigInFragment_to_googleLogInFragment);
+            }
+        });
+
+        // Obtener referencia a la imagen
+        View txtGoogle = view.findViewById(R.id.txtGoogle);
+
+        // Configurar el clic de la imagen para navegar al fragmento LogRegInicioFragment
+        txtGoogle.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Obtener NavController desde el Fragment
+                NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
+
+                // Navegar al fragmento LogRegInicioFragment utilizando la acción definida en nav_graph.xml
+                navController.navigate(R.id.action_sigInFragment_to_googleLogInFragment);
+            }
+        });
     }
 }

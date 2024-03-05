@@ -31,6 +31,9 @@
         <action
             android:id="@+id/action_logInFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_logInFragment_to_googleLogInFragment"
+            app:destination="@id/googleLogInFragment" />
     </fragment>
     <fragment
         android:id="@+id/sigInFragment"
@@ -46,6 +49,9 @@
         <action
             android:id="@+id/action_sigInFragment_to_homeFragment"
             app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_sigInFragment_to_googleLogInFragment"
+            app:destination="@id/googleLogInFragment" />
     </fragment>
     <fragment
         android:id="@+id/homeFragment"
@@ -76,5 +82,12 @@
         android:id="@+id/googleLogInFragment"
         android:name="com.example.judas.GoogleLogInFragment"
         android:label="fragment_google_log_in"
-        tools:layout="@layout/fragment_google_log_in" />
+        tools:layout="@layout/fragment_google_log_in" >
+        <action
+            android:id="@+id/action_googleLogInFragment_to_homeFragment"
+            app:destination="@id/homeFragment" />
+        <action
+            android:id="@+id/action_googleLogInFragment_to_logRegInicioFragment"
+            app:destination="@id/logRegInicioFragment" />
+    </fragment>
 </navigation>
