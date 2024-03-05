@@ -89,5 +89,20 @@
         <action
             android:id="@+id/action_googleLogInFragment_to_logRegInicioFragment"
             app:destination="@id/logRegInicioFragment" />
+        <action
+            android:id="@+id/action_googleLogInFragment_to_googleAddFragment"
+            app:destination="@id/googleAddFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/googleAddFragment"
+        android:name="com.example.judas.GoogleAddFragment"
+        android:label="fragment_google_add"
+        tools:layout="@layout/fragment_google_add" >
+        <action
+            android:id="@+id/action_googleAddFragment_to_logInFragment"
+            app:destination="@id/logInFragment" />
+        <action
+            android:id="@+id/action_googleAddFragment_to_googleLogInFragment"
+            app:destination="@id/googleLogInFragment" />
     </fragment>
 </navigation>

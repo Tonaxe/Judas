@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity {
         navController.addOnDestinationChangedListener((controller, destination, arguments) -> {
             if (destination.getId() == R.id.logInFragment ||
                     destination.getId() == R.id.sigInFragment ||
+                    destination.getId() == R.id.googleAddFragment ||
                     destination.getId() == R.id.logRegInicioFragment ||
                     destination.getId() == R.id.googleLogInFragment){
                 binding.navView.setVisibility(View.GONE);

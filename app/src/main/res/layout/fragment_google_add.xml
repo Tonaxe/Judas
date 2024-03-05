@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <data/>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearGoogleAdd"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        style="@style/groupStylegray_900">
+
+        <ImageView
+            android:id="@+id/imageArrowleft"
+            android:layout_width="@dimen/_24pxh"
+            android:layout_height="@dimen/_18pxh"
+            android:layout_marginStart="@dimen/_18pxh"
+            android:layout_marginTop="@dimen/_17pxv"
+            android:layout_marginEnd="@dimen/_18pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_arrowleft"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/img_arrowleft" />
+
+        <TextView
+            android:id="@+id/txtCorreoelectrn"
+            style="@style/txtMadabold25"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_30pxh"
+            android:layout_marginTop="88dp"
+            android:layout_marginEnd="@dimen/_30pxh"
+            android:ellipsize="end"
+            android:gravity="start"
+            android:singleLine="true"
+            android:text="@string/msg_correo_electr_n"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageArrowleft" />
+
+        <EditText
+            android:id="@+id/txtGroupTwo"
+            style="@style/txtSolidRounded"
+            android:layout_width="381dp"
+            android:layout_height="48dp"
+            android:layout_marginStart="@dimen/_18pxh"
+            android:layout_marginTop="@dimen/_15pxv"
+            android:layout_marginEnd="@dimen/_18pxh"
+            android:ellipsize="end"
+            android:gravity="left"
+            android:hint="@string/lbl_usuario"
+            android:paddingLeft="@dimen/_10pxh"
+            android:paddingTop="@dimen/_11pxh"
+            android:singleLine="true"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtCorreoelectrn" />
+
+        <TextView
+            android:id="@+id/txtContrasea"
+            style="@style/txtMadabold25"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_30pxh"
+            android:layout_marginTop="56dp"
+            android:layout_marginEnd="@dimen/_30pxh"
+            android:ellipsize="end"
+            android:singleLine="true"
+            android:text="@string/lbl_contrase_a"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtGroupTwo" />
+
+        <LinearLayout
+            android:id="@+id/linearRowpassword"
+            style="@style/groupStylebluegray_100cornerRadius"
+            android:layout_width="375dp"
+            android:layout_height="47dp"
+            android:layout_marginStart="@dimen/_18pxh"
+            android:layout_marginTop="@dimen/_14pxv"
+            android:layout_marginEnd="@dimen/_18pxh"
+            android:orientation="horizontal"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/txtContrasea">
+
+            <EditText
+                android:id="@+id/txtPassword"
+                style="@style/txtMadabold15"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_8pxv"
+                android:layout_marginBottom="@dimen/_7pxv"
+                android:layout_weight="0.79"
+                android:paddingTop="@dimen/_7pxh"
+                android:ellipsize="end"
+                android:gravity="start"
+                android:hint="@string/lbl"
+                android:singleLine="true" />
+
+            <ImageView
+                android:id="@+id/imageEye"
+                android:layout_width="@dimen/_20pxh"
+                android:layout_height="@dimen/_18pxh"
+                android:layout_marginStart="@dimen/_188pxh"
+                android:layout_marginTop="@dimen/_9pxv"
+                android:layout_marginEnd="@dimen/_9pxh"
+                android:layout_marginBottom="@dimen/_8pxv"
+                android:scaleType="fitXY"
+                android:src="@drawable/img_eye"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btnIniciarSesin"
+            android:layout_width="@dimen/_276pxh"
+            android:layout_height="@dimen/_54pxv"
+            android:layout_marginStart="@dimen/_18pxh"
+            android:layout_marginTop="@dimen/_113pxv"
+            android:layout_marginEnd="@dimen/_18pxh"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:singleLine="true"
+            android:text="@string/lbl_iniciar_sesi_n"
+            android:textAllCaps="false"
+            style="@style/btnSolidRounded"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/linearRowpassword" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</layout>
