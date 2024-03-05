@@ -116,5 +116,23 @@
         <item name="android:fontFamily">@font/mada</item>
         <item name="android:textFontWeight" tools:targetApi="p">300</item>
     </style>
+    <style name="txtMulishsemibold16">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/gray_500</item>
+        <item name="android:fontFamily">@font/mulish</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtMulishregular14">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/bluegray_200</item>
+        <item name="android:fontFamily">@font/mulish</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtMulishsemibold12">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/gray_501</item>
+        <item name="android:fontFamily">@font/mulish</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
 
 </resources>
