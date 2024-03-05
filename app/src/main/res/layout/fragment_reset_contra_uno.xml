@@ -90,8 +90,8 @@
                 android:paddingTop="@dimen/_6pxv"
                 android:paddingBottom="@dimen/_9pxv"
                 android:singleLine="true"
-                android:hint="@string/lbl_email"
-                tools:hint="@string/lbl_email" />
+                android:text="@string/lbl_email"
+                tools:text="@string/lbl_email" />
 
             <androidx.appcompat.widget.AppCompatButton
                 android:id="@+id/btnEnviar"
