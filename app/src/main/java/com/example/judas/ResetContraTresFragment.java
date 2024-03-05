@@ -11,13 +11,12 @@ import androidx.navigation.Navigation;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-
-public class ResetContraDosFragment extends Fragment {
+public class ResetContraTresFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
         // Inflate the layout for this fragment
-        return inflater.inflate(R.layout.fragment_reset_contra_dos, container, false);
+        return inflater.inflate(R.layout.fragment_reset_contra_tres, container, false);
     }
 
     @Override
@@ -35,9 +34,10 @@ public class ResetContraDosFragment extends Fragment {
                 NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
 
                 // Navegar al fragmento LogRegInicioFragment utilizando la acción definida en nav_graph.xml
-                navController.navigate(R.id.action_resetContraDosFragment_to_resetContraUnoFragment);
+                navController.navigate(R.id.action_resetContraTresFragment_to_resetContraDosFragment);
             }
         });
+
 
         // Obtener referencia a la imagen
         View txtIniciarsesin = view.findViewById(R.id.txtIniciarsesin);
@@ -50,22 +50,7 @@ public class ResetContraDosFragment extends Fragment {
                 NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
 
                 // Navegar al fragmento LogRegInicioFragment utilizando la acción definida en nav_graph.xml
-                navController.navigate(R.id.action_resetContraDosFragment_to_logInFragment);
-            }
-        });
-
-        // Obtener referencia a la imagen
-        View frameStackverificar = view.findViewById(R.id.frameStackverificar);
-
-        // Configurar el clic de la imagen para navegar al fragmento LogRegInicioFragment
-        frameStackverificar.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View v) {
-                // Obtener NavController desde el Fragment
-                NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
-
-                // Navegar al fragmento LogRegInicioFragment utilizando la acción definida en nav_graph.xml
-                navController.navigate(R.id.action_resetContraDosFragment_to_resetContraTresFragment);
+                navController.navigate(R.id.action_resetContraTresFragment_to_logInFragment);
             }
         });
     }

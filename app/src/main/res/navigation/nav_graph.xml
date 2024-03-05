@@ -134,5 +134,20 @@
         <action
             android:id="@+id/action_resetContraDosFragment_to_logInFragment"
             app:destination="@id/logInFragment" />
+        <action
+            android:id="@+id/action_resetContraDosFragment_to_resetContraTresFragment"
+            app:destination="@id/resetContraTresFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resetContraTresFragment"
+        android:name="com.example.judas.ResetContraTresFragment"
+        android:label="fragment_reset_contra_tres"
+        tools:layout="@layout/fragment_reset_contra_tres" >
+        <action
+            android:id="@+id/action_resetContraTresFragment_to_resetContraDosFragment"
+            app:destination="@id/resetContraDosFragment" />
+        <action
+            android:id="@+id/action_resetContraTresFragment_to_logInFragment"
+            app:destination="@id/logInFragment" />
     </fragment>
 </navigation>

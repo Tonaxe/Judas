@@ -36,4 +36,9 @@
     <string name="lbl_c_digo">Código</string>
     <string name="msg_por_favor_revis">Por favor revisé su correo</string>
     <string name="lbl_verificar">Verificar</string>
+    <string name="msg_restaurar_la_co">Restaurar la contraseña</string>
+    <string name="msg_nueva_contrase">Nueva contraseña</string>
+    <string name="msg_introduzca_la_n">Introduzca la nueva contraseña.</string>
+    <string name="msg_repite_la_contr">Repite la contraseña</string>
+    <string name="msg_restaurar_la_co2">Restaurar la contraseña </string>
 </resources>
