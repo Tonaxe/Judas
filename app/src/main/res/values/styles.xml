@@ -109,4 +109,12 @@
         <item name="android:fontFamily">@font/mada</item>
         <item name="android:textFontWeight" tools:targetApi="p">700</item>
     </style>
+
+    <style name="txtMadalight18">
+        <item name="android:textSize">@dimen/_18pxh</item>
+        <item name="android:textColor">@color/gray_100</item>
+        <item name="android:fontFamily">@font/mada</item>
+        <item name="android:textFontWeight" tools:targetApi="p">300</item>
+    </style>
+
 </resources>

@@ -149,5 +149,17 @@
         <action
             android:id="@+id/action_resetContraTresFragment_to_logInFragment"
             app:destination="@id/logInFragment" />
+        <action
+            android:id="@+id/action_resetContraTresFragment_to_resetContraQuatroFragment"
+            app:destination="@id/resetContraQuatroFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resetContraQuatroFragment"
+        android:name="com.example.judas.ResetContraQuatroFragment"
+        android:label="fragment_reset_contra_quatro"
+        tools:layout="@layout/fragment_reset_contra_quatro" >
+        <action
+            android:id="@+id/action_resetContraQuatroFragment_to_logInFragment"
+            app:destination="@id/logInFragment" />
     </fragment>
 </navigation>
