@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android" xmlns:tools="http://schemas.android.com/tools">
+    <data/>
+    <LinearLayout android:gravity="center_horizontal"
+        android:id="@+id/linearColumncontraseacamb"
+        android:layout_height="match_parent"
+        android:layout_width="match_parent"
+        android:orientation="vertical" style="@style/groupStylegray_900">
+        <TextView android:ellipsize="end"
+            android:gravity="center_horizontal"
+            android:id="@+id/txtContraseacamb"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_39pxh"
+            android:layout_marginStart="@dimen/_39pxh"
+            android:layout_marginTop="@dimen/_292pxv"
+            android:layout_width="match_parent"
+            android:singleLine="true"
+            android:text="@string/msg_contrase_a_camb"
+            style="@style/txtMadabold25" tools:text="@string/msg_contrase_a_camb"/>
+        <TextView android:gravity="center_horizontal"
+            android:id="@+id/txtHascambiadotu"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="@dimen/_39pxh"
+            android:layout_marginStart="@dimen/_39pxh"
+            android:layout_marginTop="@dimen/_9pxv"
+            android:layout_width="match_parent"
+            android:text="@string/msg_has_cambiado_tu"
+            style="@style/txtMadalight18" tools:text="@string/msg_has_cambiado_tu"/>
+        <androidx.appcompat.widget.AppCompatButton
+            android:ellipsize="end" android:gravity="center"
+            android:id="@+id/btnIniciaSesin"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/_20pxv"
+            android:layout_marginEnd="@dimen/_39pxh"
+            android:layout_marginStart="@dimen/_39pxh"
+            android:layout_marginTop="@dimen/_47pxv"
+            android:layout_width="match_parent"
+            android:paddingBottom="@dimen/_17pxv"
+            android:paddingEnd="@dimen/_30pxh"
+            android:paddingStart="@dimen/_30pxh"
+            android:paddingTop="@dimen/_17pxv" android:singleLine="true"
+            android:text="@string/lbl_inicia_sesi_n"
+            android:textAllCaps="false" style="@style/btnSolidRounded" tools:text="@string/lbl_inicia_sesi_n"/>
+    </LinearLayout>
+</layout>

@@ -41,4 +41,7 @@
     <string name="msg_introduzca_la_n">Introduzca la nueva contraseña.</string>
     <string name="msg_repite_la_contr">Repite la contraseña</string>
     <string name="msg_restaurar_la_co2">Restaurar la contraseña </string>
+    <string name="msg_has_cambiado_tu">Has cambiado tu contraseña con éxito, inicia sesión para poder acceder a tu cuenta.</string>
+    <string name="msg_contrase_a_camb">Contraseña cambiada!</string>
+    <string name="lbl_inicia_sesi_n">Inicia sesión</string>
 </resources>
