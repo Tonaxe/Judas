@@ -34,6 +34,9 @@
         <action
             android:id="@+id/action_logInFragment_to_googleLogInFragment"
             app:destination="@id/googleLogInFragment" />
+        <action
+            android:id="@+id/action_logInFragment_to_resetContraUnoFragment"
+            app:destination="@id/resetContraUnoFragment" />
     </fragment>
     <fragment
         android:id="@+id/sigInFragment"
@@ -104,5 +107,14 @@
         <action
             android:id="@+id/action_googleAddFragment_to_googleLogInFragment"
             app:destination="@id/googleLogInFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/resetContraUnoFragment"
+        android:name="com.example.judas.ResetContraUnoFragment"
+        android:label="fragment_reset_contra_uno"
+        tools:layout="@layout/fragment_reset_contra_uno" >
+        <action
+            android:id="@+id/action_resetContraUnoFragment_to_logInFragment"
+            app:destination="@id/logInFragment" />
     </fragment>
 </navigation>
