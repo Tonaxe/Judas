@@ -51,19 +51,22 @@
                 android:singleLine="true"
                 android:text="@string/msg_c_digo_de_verif"
                 style="@style/txtMadabold25" tools:text="@string/msg_c_digo_de_verif"/>
-            <EditText android:ellipsize="end"
-                android:gravity="left"
+
+            <EditText
                 android:id="@+id/txtGroupTwo"
-                android:layout_height="wrap_content"
+                style="@style/txtSolidRounded"
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
                 android:layout_marginStart="@dimen/_3pxh"
                 android:layout_marginTop="@dimen/_13pxv"
-                android:layout_width="match_parent"
-                android:paddingBottom="@dimen/_8pxv"
-                android:paddingStart="@dimen/_10pxh"
-                android:paddingTop="@dimen/_7pxv"
-                android:singleLine="true"
+                android:ellipsize="end"
+                android:gravity="left"
                 android:hint="@string/lbl_c_digo"
-                style="@style/txtSolidRounded" tools:text="@string/lbl_c_digo"/>
+                android:paddingStart="@dimen/_10pxh"
+                android:paddingTop="@dimen/_11pxv"
+                android:paddingBottom="@dimen/_8pxv"
+                android:singleLine="true"
+                tools:text="@string/lbl_c_digo" />
             <FrameLayout android:id="@+id/frameStackverificar"
                 android:layout_gravity="center_horizontal"
                 android:layout_height="@dimen/_54pxv"

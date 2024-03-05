@@ -31,4 +31,9 @@
     <string name="msg_correo_electr_n">Correo electrónico</string>
     <string name="msg_si_has_olvidado">Si has olvidado la contraseña procede a poner tu correo y te llegará un código de verificación.</string>
     <string name="lbl_enviar">Enviar</string>
+    <string name="msg_se_le_ha_propor">Se le ha proporcionado un correo en el cual tiene un código, por favor introdúzcalo para cambiar su contraseña.</string>
+    <string name="msg_c_digo_de_verif">Código de verificación</string>
+    <string name="lbl_c_digo">Código</string>
+    <string name="msg_por_favor_revis">Por favor revisé su correo</string>
+    <string name="lbl_verificar">Verificar</string>
 </resources>

@@ -34,6 +34,9 @@
         <action
             android:id="@+id/action_logInFragment_to_googleLogInFragment"
             app:destination="@id/googleLogInFragment" />
+        <action
+            android:id="@+id/action_logInFragment_to_resetContraUnoFragment"
+            app:destination="@id/resetContraUnoFragment" />
     </fragment>
     <fragment
         android:id="@+id/sigInFragment"
@@ -116,6 +119,9 @@
         <action
             android:id="@+id/action_resetContraUnoFragment_to_resetContraDosFragment"
             app:destination="@id/resetContraDosFragment" />
+        <action
+            android:id="@+id/action_resetContraUnoFragment_to_logInFragment2"
+            app:destination="@id/logInFragment" />
     </fragment>
     <fragment
         android:id="@+id/resetContraDosFragment"
