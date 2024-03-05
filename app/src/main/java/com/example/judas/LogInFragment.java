@@ -97,5 +97,20 @@ public class LogInFragment extends Fragment {
                 navController.navigate(R.id.action_logInFragment_to_googleLogInFragment);
             }
         });
+
+        // Obtener referencia a la imagen
+        View txtHasolvidadol = view.findViewById(R.id.txtHasolvidadol);
+
+        // Configurar el clic de la imagen para navegar al fragmento LogRegInicioFragment
+        txtHasolvidadol.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Obtener NavController desde el Fragment
+                NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
+
+                // Navegar al fragmento LogRegInicioFragment utilizando la acción definida en nav_graph.xml
+                navController.navigate(R.id.action_logInFragment_to_resetContraUnoFragment);
+            }
+        });
     }
 }

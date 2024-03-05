@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/linearResetContraUno"
+        style="@style/groupStylegray_900"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageArrowleft"
+            android:layout_width="@dimen/_24pxh"
+            android:layout_height="@dimen/_18pxh"
+            android:layout_marginStart="@dimen/_18pxh"
+            android:layout_marginTop="@dimen/_17pxv"
+            android:layout_marginEnd="@dimen/_18pxh"
+            android:scaleType="fitXY"
+            android:src="@drawable/img_arrowleft"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:ignore="ContentDescription"
+            tools:src="@drawable/img_arrowleft" />
+
+        <LinearLayout
+            android:id="@+id/linearColumnhasolvidadol"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/_18pxh"
+            android:layout_marginTop="@dimen/_67pxv"
+            android:layout_marginEnd="@dimen/_18pxh"
+            android:layout_marginBottom="@dimen/_36pxv"
+            android:orientation="vertical"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/imageArrowleft">
+
+            <TextView
+                android:id="@+id/txtHasolvidadol"
+                style="@style/txtMadabold20"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/msg_has_olvidado_l"
+                tools:text="@string/msg_has_olvidado_l" />
+
+            <TextView
+                android:id="@+id/txtSihasolvidado"
+                style="@style/txtMadalight17"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_14pxv"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:ellipsize="none"
+                android:maxLines="5"
+                android:text="@string/msg_si_has_olvidado"
+                android:textColor="@color/gray_100"
+                tools:text="@string/msg_si_has_olvidado" />
+
+
+            <TextView
+                android:id="@+id/txtCorreoelectrn"
+                style="@style/txtMadabold25"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_10pxh"
+                android:layout_marginTop="@dimen/_59pxv"
+                android:layout_marginEnd="@dimen/_10pxh"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:text="@string/msg_correo_electr_n"
+                tools:text="@string/msg_correo_electr_n" />
+
+            <TextView
+                android:id="@+id/txtGroupTwo"
+                style="@style/txtSolidRounded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="@dimen/_15pxv"
+                android:ellipsize="end"
+                android:paddingStart="@dimen/_10pxh"
+                android:paddingTop="@dimen/_6pxv"
+                android:paddingBottom="@dimen/_9pxv"
+                android:singleLine="true"
+                android:hint="@string/lbl_email"
+                tools:hint="@string/lbl_email" />
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/btnEnviar"
+                style="@style/btnSolidRounded"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_13pxh"
+                android:layout_marginTop="@dimen/_87pxv"
+                android:layout_marginEnd="@dimen/_13pxh"
+                android:ellipsize="end"
+                android:gravity="center"
+                android:singleLine="true"
+                android:text="@string/lbl_enviar"
+                android:textAllCaps="false"
+                tools:text="@string/lbl_enviar" />
+
+            <LinearLayout
+                android:id="@+id/linearRowtienescuenta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/_100pxh"
+                android:layout_marginTop="@dimen/_190pxv"
+                android:layout_marginEnd="@dimen/_13pxh"
+                android:orientation="horizontal"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/btnEnviar">
+
+                <TextView
+                    android:id="@+id/txtTienescuenta"
+                    style="@style/txtOutfitregular13"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_1pxv"
+                    android:layout_weight="0.55"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/lbl_tienes_cuenta"
+                    tools:text="@string/lbl_tienes_cuenta" />
+
+                <TextView
+                    android:id="@+id/txtIniciarsesin"
+                    style="@style/txtOutfitregular13"
+                    android:layout_width="101dp"
+                    android:layout_height="wrap_content"
+                    android:layout_marginStart="@dimen/_2pxh"
+                    android:layout_marginBottom="@dimen/_1pxv"
+                    android:layout_weight="0.45"
+                    android:layout_marginTop="@dimen/_1pxh"
+                    android:ellipsize="end"
+                    android:singleLine="true"
+                    android:text="@string/lbl_iniciar_sesi_n"
+                    tools:text="@string/lbl_iniciar_sesi_n" />
+
+            </LinearLayout>
+        </LinearLayout>
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</layout>
