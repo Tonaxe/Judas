@@ -7,7 +7,7 @@ public class Chat {
     private int imageResource;
     private Class fragmentClass;
 
-    public Chat(String name, String lastMessage, String time, int imageResource, Class fragmentClass) {
+    public Chat(String name, String lastMessage, String time, int imageResource) {
         this.name = name;
         this.lastMessage = lastMessage;
         this.time = time;

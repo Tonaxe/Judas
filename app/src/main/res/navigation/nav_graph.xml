@@ -70,7 +70,11 @@
         android:id="@+id/amigosFragment"
         android:name="com.example.judas.AmigosFragment"
         android:label="fragment_amigos"
-        tools:layout="@layout/fragment_amigos" />
+        tools:layout="@layout/fragment_amigos" >
+        <action
+            android:id="@+id/action_amigosFragment_to_conversaFragment"
+            app:destination="@id/conversaFragment" />
+    </fragment>
     <fragment
         android:id="@+id/albumsFragment"
         android:name="com.example.judas.AlbumsFragment"
@@ -170,5 +174,14 @@
         android:id="@+id/conversaFragment"
         android:name="com.example.judas.ConversaFragment"
         android:label="fragment_conversa"
-        tools:layout="@layout/fragment_conversa" />
+        tools:layout="@layout/fragment_conversa" >
+        <action
+            android:id="@+id/action_conversaFragment_to_amigosFragment"
+            app:destination="@id/amigosFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/playlistFragment"
+        android:name="com.example.judas.PlaylistFragment"
+        android:label="fragment_playlist"
+        tools:layout="@layout/fragment_playlist" />
 </navigation>

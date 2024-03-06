@@ -6,14 +6,17 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 import androidx.annotation.NonNull;
+import androidx.navigation.NavController;
 import androidx.recyclerview.widget.RecyclerView;
 import java.util.List;
 
 public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.ChatViewHolder> {
     private List<Chat> chatList;
+    private NavController navController;
 
-    public ChatAdapter(List<Chat> chatList) {
+    public ChatAdapter(List<Chat> chatList, NavController navController) {
         this.chatList = chatList;
+        this.navController = navController;
     }
 
     @NonNull
@@ -31,6 +34,14 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.ChatViewHolder
         holder.txtLastMessage.setText(chat.getLastMessage());
         holder.txtTime.setText(chat.getTime());
         holder.imgChat.setImageResource(chat.getImageResource());
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Navegar al fragmento deseado cuando se hace clic en un elemento del RecyclerView
+                navController.navigate(R.id.action_amigosFragment_to_conversaFragment);
+            }
+        });
     }
 
     @Override
@@ -51,3 +62,4 @@ public class ChatAdapter extends RecyclerView.Adapter<ChatAdapter.ChatViewHolder
         }
     }
 }
+

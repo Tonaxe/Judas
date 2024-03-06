@@ -36,6 +36,7 @@ public class MainActivity extends AppCompatActivity {
                     destination.getId() == R.id.googleAddFragment ||
                     destination.getId() == R.id.resetContraUnoFragment ||
                     destination.getId() == R.id.resetContraDosFragment ||
+                    destination.getId() == R.id.resetContraQuatroFragment ||
                     destination.getId() == R.id.resetContraTresFragment ||
                     destination.getId() == R.id.logRegInicioFragment ||
                     destination.getId() == R.id.googleLogInFragment){
