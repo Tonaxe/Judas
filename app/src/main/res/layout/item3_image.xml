@@ -7,9 +7,9 @@
 
     <ImageView
         android:id="@+id/image3View"
-        android:layout_width="175dp"
-        android:layout_height="239dp"
-        android:layout_marginLeft="@dimen/_25pxv"
+        android:layout_width="164dp"
+        android:layout_height="176dp"
+        android:layout_marginLeft="@dimen/_5pxv"
         android:layout_marginTop="8dp"
         android:scaleType="centerCrop"
         app:layout_constraintDimensionRatio="1:1"

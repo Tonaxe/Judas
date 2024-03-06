@@ -5,13 +5,14 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import androidx.fragment.app.Fragment;
+import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.GridLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.ArrayList;
 import java.util.List;
 
-public class BuscarFragment extends Fragment {
+public class BuscarFragment extends Fragment implements Image2Adapter.OnItemClickListener {
 
     private RecyclerView gridRecyclerView;
     private Image2Adapter image2Adapter;
@@ -40,9 +41,15 @@ public class BuscarFragment extends Fragment {
         gridImages.add(R.drawable.ocho_grid);
         gridImages.add(R.drawable.nada1);
         gridImages.add(R.drawable.nada2);
-        image2Adapter = new Image2Adapter(getContext(), gridImages);
+        image2Adapter = new Image2Adapter(getContext(), gridImages, this);
         gridRecyclerView.setAdapter(image2Adapter);
 
         return rootView;
     }
+
+    @Override
+    public void onItemClick(int position) {
+        Navigation.findNavController(requireView()).navigate(R.id.action_buscarFragment_to_playlistFragment);
+    }
 }
+

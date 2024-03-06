@@ -14,10 +14,13 @@ public class Image2Adapter extends RecyclerView.Adapter<Image2Adapter.ImageViewH
 
     private Context mContext;
     private List<Integer> mImages;
+    private OnItemClickListener mListener;
 
-    public Image2Adapter(Context context, List<Integer> images) {
+
+    public Image2Adapter(Context context, List<Integer> images, OnItemClickListener listener) {
         mContext = context;
         mImages = images;
+        mListener = listener;
     }
 
     @NonNull
@@ -31,6 +34,16 @@ public class Image2Adapter extends RecyclerView.Adapter<Image2Adapter.ImageViewH
     public void onBindViewHolder(@NonNull ImageViewHolder holder, int position) {
         int imageResource = mImages.get(position);
         holder.imageView.setImageResource(imageResource);
+
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                if (mListener != null) {
+                    mListener.onItemClick(holder.getAdapterPosition());
+                }
+            }
+        });
+
     }
 
     @Override
@@ -46,4 +59,9 @@ public class Image2Adapter extends RecyclerView.Adapter<Image2Adapter.ImageViewH
             imageView = itemView.findViewById(R.id.imageView);
         }
     }
+
+    public interface OnItemClickListener {
+        void onItemClick(int position);
+    }
+
 }
