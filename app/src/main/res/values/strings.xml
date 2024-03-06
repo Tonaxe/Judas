@@ -54,4 +54,11 @@
     <string name="lbl_nombre">Nombre</string>
     <string name="lbl_gmail">Gmail</string>
     <string name="lbl_cancerlar">Cancerlar</string>
+    <string name="msg_yepa_que_pasa_g">Yepa que pasa gente estoy bien marica</string>
+    <string name="lbl_en_linea">En linea</string>
+    <string name="msg_escribe_tu_mens">Escribe tu mensaje</string>
+    <string name="msg_me_has_llamado">Me has llamado marica? Tu si que eres maricon</string>
+    <string name="msg_buena_idea_si"> ¡Buena idea! Siempre es agradable tener una buena conversación después de ver una película interesante. ¿Algún lugar en mente para la cena?  ¡Buena idea! Siempre es agradable tener una buena conversación después de ver una película interesante. </string>
+    <string name="msg_hola_c_mo_ha">¡Hola! ¿Cómo has estado triple hdp?</string>
+    <string name="msg_que_me_estas_co">Que me estas contando?</string>
 </resources>

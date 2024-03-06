@@ -28,21 +28,21 @@ public class AmigosFragment extends Fragment {
         chatList = new ArrayList<>();
 
         // Agregar chats de ejemplo con imágenes correspondientes
-        chatList.add(new Chat("Chat 1", "Último mensaje de Chat 1", "12:00 PM", R.drawable.chatuno));
-        chatList.add(new Chat("Chat 2", "Último mensaje de Chat 2", "1:30 PM", R.drawable.chatdos));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
+        chatList.add(new Chat("Chat 1", "Último mensaje de Chat 1", "12:00 PM", R.drawable.chatuno, ConversaFragment.class));
+        chatList.add(new Chat("Chat 2", "Último mensaje de Chat 2", "1:30 PM", R.drawable.chatdos, ConversaFragment.class));
+        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres, ConversaFragment.class));
+        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres, ConversaFragment.class));
+        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres, ConversaFragment.class));
+        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres, ConversaFragment.class));
+        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres, ConversaFragment.class));
+        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres, ConversaFragment.class));
+        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres, ConversaFragment.class));
+        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres, ConversaFragment.class));
+        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres, ConversaFragment.class));
+        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres, ConversaFragment.class));
+        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres, ConversaFragment.class));
+        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres, ConversaFragment.class));
+
 
         chatAdapter = new ChatAdapter(chatList);
         recyclerView.setAdapter(chatAdapter);

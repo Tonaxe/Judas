@@ -22,4 +22,9 @@
     <color name="red_500">#e94242</color>
     <color name="green_500">#2cc069</color>
     <color name="gray_400">#d9c5b2</color>
+    <color name="black_900_21">#21000000</color>
+    <color name="blue_A700">#3369ff</color>
+    <color name="gray_801">#505050</color>
+    <color name="black_900_0c">#0c000000</color>
+    <color name="gray_200">#eeeeee</color>
 </resources>

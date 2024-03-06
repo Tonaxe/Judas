@@ -166,4 +166,9 @@
             android:id="@+id/action_resetContraQuatroFragment_to_logInFragment"
             app:destination="@id/logInFragment" />
     </fragment>
+    <fragment
+        android:id="@+id/conversaFragment"
+        android:name="com.example.judas.ConversaFragment"
+        android:label="fragment_conversa"
+        tools:layout="@layout/fragment_conversa" />
 </navigation>
