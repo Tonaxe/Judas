@@ -202,10 +202,18 @@
         <action
             android:id="@+id/action_playlistFragment_to_playFragment"
             app:destination="@id/playFragment" />
+        <action
+            android:id="@+id/action_playlistFragment_to_playyFragment"
+            app:destination="@id/playyFragment" />
     </fragment>
     <fragment
         android:id="@+id/playFragment"
         android:name="com.example.judas.PlayFragment"
         android:label="fragment_play"
         tools:layout="@layout/fragment_play" />
+    <fragment
+        android:id="@+id/playyFragment"
+        android:name="com.example.judas.PlayyFragment"
+        android:label="fragment_playy"
+        tools:layout="@layout/fragment_playy" />
 </navigation>

@@ -12,6 +12,7 @@ import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
+import android.widget.LinearLayout;
 
 public class PlaylistFragment extends Fragment {
 
@@ -81,6 +82,18 @@ public class PlaylistFragment extends Fragment {
         // Establecer la imagen deseada programáticamente
         imageSongCoverArt9.setImageResource(R.drawable.img_songcoverart);
 
+        LinearLayout linearRowsongcoverart1 = rootView.findViewById(R.id.linearRowsongcoverart1);
+        linearRowsongcoverart1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Obtener NavController desde el Fragment
+                NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
+
+                // Navegar al PlayFragment utilizando la acción definida en nav_graph.xml
+                navController.navigate(R.id.action_playlistFragment_to_playyFragment);
+            }
+        });
+
         return rootView;
     }
 
@@ -102,5 +115,6 @@ public class PlaylistFragment extends Fragment {
                 navController.navigate(R.id.action_playlistFragment_to_homeFragment);
             }
         });
+
     }
 }
