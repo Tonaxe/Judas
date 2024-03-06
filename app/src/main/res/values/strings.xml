@@ -61,4 +61,9 @@
     <string name="msg_buena_idea_si"> ¡Buena idea! Siempre es agradable tener una buena conversación después de ver una película interesante. ¿Algún lugar en mente para la cena?  ¡Buena idea! Siempre es agradable tener una buena conversación después de ver una película interesante. </string>
     <string name="msg_hola_c_mo_ha">¡Hola! ¿Cómo has estado triple hdp?</string>
     <string name="msg_que_me_estas_co">Que me estas contando?</string>
+    <string name="lbl_duro">DURO</string>
+    <string name="lbl_reggaeton_duro">REGGAETON DURO</string>
+    <string name="lbl_reggaeton">REGGAETON</string>
+    <string name="lbl_feid">Feid</string>
+    <string name="lbl_ferxxo100">Ferxxo100</string>
 </resources>

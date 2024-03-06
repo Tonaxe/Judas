@@ -27,4 +27,7 @@
     <color name="gray_801">#505050</color>
     <color name="black_900_0c">#0c000000</color>
     <color name="gray_200">#eeeeee</color>
+    <color name="indigo_A700">#3445e0</color>
+    <color name="indigo_400_9d">#9d6960d2</color>
+    <color name="purple_200_00">#00c08dbb</color>
 </resources>

@@ -7,6 +7,7 @@ import android.view.ViewGroup;
 import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
+import androidx.navigation.Navigation;
 import androidx.recyclerview.widget.RecyclerView;
 
 import java.util.List;
@@ -30,6 +31,15 @@ public class ImageAdapter extends RecyclerView.Adapter<ImageAdapter.ViewHolder> 
     @Override
     public void onBindViewHolder(@NonNull ViewHolder holder, int position) {
         holder.imageView.setImageResource(imageList.get(position));
+
+        // Manejar clics en los elementos del RecyclerView
+        holder.itemView.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                // Navegar a la pantalla deseada utilizando NavController
+                Navigation.findNavController(view).navigate(R.id.action_homeFragment_to_playlistFragment);
+            }
+        });
     }
 
     @Override
