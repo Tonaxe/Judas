@@ -45,7 +45,7 @@
                 android:id="@+id/imageViewAboveFerxxo"
                 android:layout_width="wrap_content"
                 android:layout_height="@dimen/_238pxh"
-                android:layout_marginStart="@dimen/_37pxh"
+                android:layout_marginStart="@dimen/_64pxh"
                 android:layout_marginTop="@dimen/_151pxv"
                 android:layout_marginEnd="@dimen/_37pxh"
                 android:src="@drawable/img_songcoverart"
