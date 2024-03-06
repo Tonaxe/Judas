@@ -94,6 +94,119 @@ public class PlaylistFragment extends Fragment {
             }
         });
 
+        LinearLayout linearRowsongcoverart2 = rootView.findViewById(R.id.linearRowsongcoverart2);
+        linearRowsongcoverart2.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Obtener NavController desde el Fragment
+                NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
+
+                // Navegar al PlayFragment utilizando la acción definida en nav_graph.xml
+                navController.navigate(R.id.action_playlistFragment_to_playyFragment);
+            }
+        });
+
+
+        LinearLayout linearRowsongcoverart3 = rootView.findViewById(R.id.linearRowsongcoverart3);
+        linearRowsongcoverart3.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Obtener NavController desde el Fragment
+                NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
+
+                // Navegar al PlayFragment utilizando la acción definida en nav_graph.xml
+                navController.navigate(R.id.action_playlistFragment_to_playyFragment);
+            }
+        });
+
+        LinearLayout linearRowsongcoverart = rootView.findViewById(R.id.linearRowsongcoverart);
+        linearRowsongcoverart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Obtener NavController desde el Fragment
+                NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
+
+                // Navegar al PlayFragment utilizando la acción definida en nav_graph.xml
+                navController.navigate(R.id.action_playlistFragment_to_playyFragment);
+            }
+        });
+
+        LinearLayout linearRowsongcoverart4 = rootView.findViewById(R.id.linearRowsongcoverart4);
+        linearRowsongcoverart4.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Obtener NavController desde el Fragment
+                NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
+
+                // Navegar al PlayFragment utilizando la acción definida en nav_graph.xml
+                navController.navigate(R.id.action_playlistFragment_to_playyFragment);
+            }
+        });
+
+        LinearLayout linearRowsongcoverart5 = rootView.findViewById(R.id.linearRowsongcoverart5);
+        linearRowsongcoverart5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Obtener NavController desde el Fragment
+                NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
+
+                // Navegar al PlayFragment utilizando la acción definida en nav_graph.xml
+                navController.navigate(R.id.action_playlistFragment_to_playyFragment);
+            }
+        });
+
+
+        LinearLayout linearRowsongcoverart6 = rootView.findViewById(R.id.linearRowsongcoverart6);
+        linearRowsongcoverart6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Obtener NavController desde el Fragment
+                NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
+
+                // Navegar al PlayFragment utilizando la acción definida en nav_graph.xml
+                navController.navigate(R.id.action_playlistFragment_to_playyFragment);
+            }
+        });
+
+        LinearLayout linearRowsongcoverart7 = rootView.findViewById(R.id.linearRowsongcoverart7);
+        linearRowsongcoverart7.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Obtener NavController desde el Fragment
+                NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
+
+                // Navegar al PlayFragment utilizando la acción definida en nav_graph.xml
+                navController.navigate(R.id.action_playlistFragment_to_playyFragment);
+            }
+        });
+
+        LinearLayout linearRowsongcoverart8 = rootView.findViewById(R.id.linearRowsongcoverart8);
+        linearRowsongcoverart8.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Obtener NavController desde el Fragment
+                NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
+
+                // Navegar al PlayFragment utilizando la acción definida en nav_graph.xml
+                navController.navigate(R.id.action_playlistFragment_to_playyFragment);
+            }
+        });
+
+
+        LinearLayout linearRowsongcoverart9 = rootView.findViewById(R.id.linearRowsongcoverart9);
+        linearRowsongcoverart9.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                // Obtener NavController desde el Fragment
+                NavController navController = Navigation.findNavController(requireActivity(), R.id.nav_host_fragment);
+
+                // Navegar al PlayFragment utilizando la acción definida en nav_graph.xml
+                navController.navigate(R.id.action_playlistFragment_to_playyFragment);
+            }
+        });
+
+
+
         return rootView;
     }
 

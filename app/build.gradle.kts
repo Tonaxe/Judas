@@ -65,6 +65,9 @@ dependencies {
     implementation ("com.google.android.exoplayer:exoplayer-core:2.X.X")
     implementation ("com.google.android.exoplayer:exoplayer-dash:2.X.X")
     implementation ("com.google.android.exoplayer:exoplayer-ui:2.X.X")
+    implementation ("com.github.bumptech.glide:glide:4.12.0")
+    annotationProcessor ("com.github.bumptech.glide:compiler:4.12.0")
+    implementation ("com.google.android.material:material:1.5.0")
 
 
 }

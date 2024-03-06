@@ -249,7 +249,7 @@
                     android:layout_marginTop="@dimen/_63pxv"
                     android:orientation="horizontal">
 
-                    <androidx.appcompat.widget.AppCompatButton
+                    <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnCancerlar"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -263,9 +263,9 @@
                         android:singleLine="true"
                         android:text="@string/lbl_cancerlar"
                         android:textAllCaps="false"
-                        style="@style/btnSolidRounded" />
+                        style="@style/Widget.MaterialComponents.Button.TextButton" />
 
-                    <androidx.appcompat.widget.AppCompatButton
+                    <com.google.android.material.button.MaterialButton
                         android:id="@+id/btnGuardar"
                         android:layout_width="0dp"
                         android:layout_height="wrap_content"
@@ -281,7 +281,8 @@
                         android:singleLine="true"
                         android:text="@string/lbl_guardar"
                         android:textAllCaps="false"
-                        style="@style/btnSolidRounded_1" />
+                        style="@style/Widget.MaterialComponents.Button.TextButton" />
+
                 </LinearLayout>
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>

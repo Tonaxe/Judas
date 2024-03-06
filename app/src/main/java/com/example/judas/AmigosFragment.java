@@ -30,20 +30,20 @@ public class AmigosFragment extends Fragment {
         chatList = new ArrayList<>();
 
         // Agregar chats de ejemplo con imágenes correspondientes
-        chatList.add(new Chat("Chat 1", "Último mensaje de Chat 1", "12:00 PM", R.drawable.chatuno));
-        chatList.add(new Chat("Chat 2", "Último mensaje de Chat 2", "1:30 PM", R.drawable.chatdos));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
-        chatList.add(new Chat("Chat 3", "Último mensaje de Chat 3", "3:45 PM", R.drawable.chattres));
+        chatList.add(new Chat("Frank", "UIKI TENKAI", "12:00 PM", R.drawable.chatuno));
+        chatList.add(new Chat("Pan1ta", "tt te paso el SISU a 5€", "01:30 PM", R.drawable.foto1));
+        chatList.add(new Chat("Cuñao", "Van 2 y se cae el del medio", "12:56 AM", R.drawable.foto2));
+        chatList.add(new Chat("DGD411", "ASOOOOPLA AI AB", "17:32 PM", R.drawable.foto3));
+        chatList.add(new Chat("Mi tio", "LITERALMENTE MI PUTO TIO", "10:05 AM", R.drawable.foto4));
+        chatList.add(new Chat("Frank", "UIKI TENKAI", "09:45 AM", R.drawable.chattres));
+        chatList.add(new Chat("Pan1ta", "tt te paso el SISU a 5€", "03:45 AM", R.drawable.foto1));
+        chatList.add(new Chat("Cuñao", "LITERALMENTE MI PUTO TIO", "06:45 AM", R.drawable.foto2));
+        chatList.add(new Chat("DGD411", "ASOOOOPLA AI AB", "02:45 AM", R.drawable.foto3));
+        chatList.add(new Chat("Mi tio", "ASOOOOPLA AI AB", "16:45 PM", R.drawable.foto4));
+        chatList.add(new Chat("Cuñao", "ASOOOOPLA AI AB", "14:45 PM", R.drawable.foto2));
+        chatList.add(new Chat("Chat 3", "tt te paso el SISU a 5€", "13:40 PM", R.drawable.foto3));
+        chatList.add(new Chat("DGD411", "LITERALMENTE MI PUTO TIO", "13:45 PM", R.drawable.chattres));
+        chatList.add(new Chat("Frank", "ASOOOOPLA AI AB", "23:45 PM", R.drawable.foto1));
 
 
         chatAdapter = new ChatAdapter(chatList, Navigation.findNavController(requireActivity(), R.id.nav_host_fragment));
