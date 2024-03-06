@@ -281,7 +281,7 @@
                         android:singleLine="true"
                         android:text="@string/lbl_guardar"
                         android:textAllCaps="false"
-                        style="@style/btnSolidRounded" />
+                        style="@style/btnSolidRounded_1" />
                 </LinearLayout>
             </LinearLayout>
         </androidx.constraintlayout.widget.ConstraintLayout>
