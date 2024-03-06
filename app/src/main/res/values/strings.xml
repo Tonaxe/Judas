@@ -49,4 +49,9 @@
     <string name="msg_klk_mi_negro_es">Klk mi negro estoy hukiao</string>
     <string name="lbl_frankpa">FrankPa</string>
     <string name="lbl_hace_12_min">hace 12 min</string>
+    <string name="lbl_guardar">Guardar</string>
+    <string name="lbl_tu_perfil">Tu perfil</string>
+    <string name="lbl_nombre">Nombre</string>
+    <string name="lbl_gmail">Gmail</string>
+    <string name="lbl_cancerlar">Cancerlar</string>
 </resources>

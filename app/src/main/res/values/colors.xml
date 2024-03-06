@@ -21,4 +21,5 @@
     <color name="bluegray_200">#adb5bd</color>
     <color name="red_500">#e94242</color>
     <color name="green_500">#2cc069</color>
+    <color name="gray_400">#d9c5b2</color>
 </resources>
