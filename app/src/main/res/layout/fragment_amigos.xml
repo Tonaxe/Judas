@@ -39,9 +39,10 @@
         android:id="@+id/txtAmigosencomn"
         android:layout_width="0dp"
         android:layout_height="wrap_content"
-        android:layout_marginTop="@dimen/_30pxv"
+        android:layout_marginTop="@dimen/_50pxv"
         android:layout_marginEnd="@dimen/_10pxh"
-        android:layout_marginStart="@dimen/_14pxv"
+        android:layout_marginStart="@dimen/_15pxv"
+        android:layout_marginBottom="@dimen/_10pxv"
         android:ellipsize="end"
         android:singleLine="true"
         android:text="@string/lbl_amigos_en_com_n"
@@ -51,6 +52,17 @@
         app:layout_constraintEnd_toEndOf="@id/viewRectangleThirtySix"
         app:layout_constraintTop_toBottomOf="@id/searchViewGroupOne"
         tools:ignore="MissingConstraints" />
+
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recyclerAmigos"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        app:layout_constraintTop_toBottomOf="@id/txtAmigosencomn"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginTop="@dimen/_10pxv"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
 
 
 
