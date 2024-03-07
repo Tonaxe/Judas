@@ -12,7 +12,7 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="@dimen/_39pxh"
             android:layout_marginStart="@dimen/_39pxh"
-            android:layout_marginTop="@dimen/_292pxv"
+            android:layout_marginTop="@dimen/_230pxv"
             android:layout_width="match_parent"
             android:singleLine="true"
             android:text="@string/msg_contrase_a_camb"

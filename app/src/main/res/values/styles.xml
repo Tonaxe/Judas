@@ -109,10 +109,91 @@
         <item name="android:fontFamily">@font/mada</item>
         <item name="android:textFontWeight" tools:targetApi="p">700</item>
     </style>
+
     <style name="txtMadalight18">
         <item name="android:textSize">@dimen/_18pxh</item>
         <item name="android:textColor">@color/gray_100</item>
         <item name="android:fontFamily">@font/mada</item>
         <item name="android:textFontWeight" tools:targetApi="p">300</item>
+    </style>
+    <style name="txtMulishsemibold16">
+        <item name="android:textSize">@dimen/_16pxh</item>
+        <item name="android:textColor">@color/gray_500</item>
+        <item name="android:fontFamily">@font/mulish</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="txtMulishregular14">
+        <item name="android:textSize">@dimen/_14pxh</item>
+        <item name="android:textColor">@color/bluegray_200</item>
+        <item name="android:fontFamily">@font/mulish</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
+    </style>
+    <style name="txtMulishsemibold12">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/gray_501</item>
+        <item name="android:fontFamily">@font/mulish</item>
+        <item name="android:textFontWeight" tools:targetApi="p">600</item>
+    </style>
+    <style name="groupStylebluegray_1">
+        <item name="android:background">@drawable/rectangle_bg_bluegray_100_radius_8</item>
+    </style>
+
+    <style name="btnSolidRounded_1">
+        <item name="android:textSize">@dimen/_20pxh</item>
+        <item name="android:textColor">@color/gray_900</item>
+        <item name="android:fontFamily">@font/mada</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_bg_gray_400_radius_27</item>
+    </style>
+
+    <style name="groupStylebluegray_900">
+        <item name="android:background">@drawable/rectangle_bg_bluegray_900</item>
+    </style>
+    <style name="groupStylegray_200cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_gray_200_radius_tl_25_tr_25_br_25</item>
+    </style>
+    <style name="groupStylewhite_1">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_28</item>
+    </style>
+    <style name="txtNunitomedium10">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/green_500</item>
+        <item name="android:fontFamily">@font/nunito</item>
+        <item name="android:textFontWeight" tools:targetApi="p">500</item>
+    </style>
+    <style name="txtNunitobold13">
+        <item name="android:textSize">@dimen/_13pxh</item>
+        <item name="android:textColor">@color/gray_801</item>
+        <item name="android:fontFamily">@font/nunito</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="btnSolidRounded_2">
+        <item name="android:textSize">@dimen/_12pxh</item>
+        <item name="android:textColor">@color/white_A700</item>
+        <item name="android:fontFamily">@font/nunito</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+        <item name="android:background">@drawable/rectangle_bg_blue_a700_radius_tl_25_bl_25_br_25</item>
+    </style>
+
+    <style name="groupStylewhite_A700cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_white_a700_radius_12_755</item>
+    </style>
+    <style name="txtNunitobold13_1">
+        <item name="android:textSize">@dimen/_13pxh</item>
+        <item name="android:textColor">@color/gray_501</item>
+        <item name="android:fontFamily">@font/nunito</item>
+        <item name="android:textFontWeight" tools:targetApi="p">700</item>
+    </style>
+    <style name="groupStyle_1">
+        <item name="android:background">@drawable/rectangle_gradient_s_indigo_a700_c_indigo_400_9d_e_purple_200_00</item>
+    </style>
+    <style name="groupStylegray_900cornerRadius">
+        <item name="android:background">@drawable/rectangle_bg_gray_900_radius_32_5</item>
+    </style>
+    <style name="txtRobotoregular10">
+        <item name="android:textSize">@dimen/_10pxh</item>
+        <item name="android:textColor">@color/gray_400</item>
+        <item name="android:fontFamily">@font/roboto</item>
+        <item name="android:textFontWeight" tools:targetApi="p">400</item>
     </style>
 </resources>
